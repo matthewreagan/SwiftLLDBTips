@@ -18,3 +18,11 @@
 settings set target.language swift
 expr import MyModule
 ```
+
+### Image Lookup
+
+Find the image containing the given symbol (see also: `man dladdr`)
+
+`image lookup -n "-[NSTextInputContext selectedRange_RTI]"`
+
+See also: [https://steipete.com/posts/mac-catalyst-crash-hunt/](https://steipete.com/posts/mac-catalyst-crash-hunt/)
